@@ -17,10 +17,6 @@ import Slide3 from '../../assets/slide3.jpg';
 import Slide32x from '../../assets/slide3@2x.jpg';
 import Slide3webp from '../../assets/slide3.webp';
 import Slide32xebp from '../../assets/slide3@2x.webp';
-import Slide4 from '../../assets/slide4.jpg';
-import Slide42x from '../../assets/slide4@2x.jpg';
-import Slide4webp from '../../assets/slide4.webp';
-import Slide42xebp from '../../assets/slide4@2x.webp';
 
 const MainSlider = () => {
   return (
