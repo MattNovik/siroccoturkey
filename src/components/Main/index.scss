@@ -1,0 +1,95 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.info-blocks {
+  margin: 0 auto;
+  padding: 10px 70px 0;
+
+  @include vp--1023 {
+    padding: 10px 40px;
+  }
+
+  &__about-us {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  &__list {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 70px 0 70px;
+    position: relative;
+
+    @include vp--1023 {
+      row-gap: 50px;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 100%;
+      height: 2px;
+      background-color: $yellow-color;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 70%;
+      height: 2px;
+      background-color: $yellow-color;
+
+      @include vp--767 {
+        width: 100%;
+      }
+    }
+  }
+
+  &__item:nth-child(2n + 2) {
+    text-align: right;
+
+    @include vp--767 {
+      text-align: left;
+    }
+
+    & .info-block {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+
+      @include vp--767 {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &__img {
+        box-shadow: -24px 0px 31px 0px rgba(243, 239, 245, 0.1);
+      }
+
+      &__text {
+        margin: 0 0 0 auto;
+
+        @include vp--767 {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

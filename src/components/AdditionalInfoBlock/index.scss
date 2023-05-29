@@ -1,0 +1,35 @@
+.additional-info-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 250px;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 5px 12px 0px rgba(243, 239, 245, 0.2);
+
+  @include vp--1023 {
+    width: 220px;
+  }
+
+  @include vp--767 {
+    width: 100%;
+  }
+
+  &__img {
+    width: 100%;
+    height: 150px;
+    min-height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    background-color: $text-color;
+  }
+
+  &__text {
+    padding: 20px;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    color: #0a122a;
+    font-size: 1.1rem;
+  }
+}

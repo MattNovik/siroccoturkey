@@ -1,0 +1,52 @@
+.header-switcher {
+  background-color: rgba(230, 230, 230, 0.4);
+
+  &__wrapper {
+    max-width: 1440px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 5px 70px;
+
+    @include vp--1023 {
+      padding: 5px 40px;
+    }
+
+    @include vp--767 {
+      justify-content: center;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+  }
+
+  &__item {
+    padding: 0;
+    margin: 0;
+  }
+
+  &__button {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    color: $text-color;
+    font-weight: 600;
+
+    &:hover {
+      color: $hover-text-color;
+    }
+
+    &.active {
+      color: #bc8034;
+    }
+  }
+}

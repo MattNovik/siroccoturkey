@@ -1,0 +1,108 @@
+.footer {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 70px;
+    margin: 0 auto;
+    column-gap: 20px;
+
+    @include vp--1023 {
+      padding: 40px 40px;
+    }
+
+    @include vp--767 {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+  }
+
+  &__left,
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 30px;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    color: $text-color;
+
+    @include vp--767 {
+      max-width: none;
+    }
+
+    & a {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      color: $text-color;
+      transition: color 0.3s ease;
+
+      @include vp--1023 {
+        font-size: 0.9rem;
+      }
+
+      &:hover {
+        color: $hover-text-color;
+      }
+
+      & svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+
+  &__logo {
+    width: 200px;
+    height: auto;
+
+    @include vp--1023 {
+      width: 150px;
+    }
+  }
+
+  &__logo-wrapper {
+    position: relative;
+
+    @include vp--767 {
+      display: none;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1px;
+      height: 1px;
+      transform: translate(-50%);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px 30px rgba(243, 239, 245, 0.15);
+      z-index: 1;
+    }
+  }
+
+  &__company-name {
+    margin: 0;
+    font-size: 1.2rem;
+    white-space: nowrap;
+
+    @include vp--1023 {
+      font-size: 1rem;
+    }
+  }
+
+  &__left {
+    align-items: flex-start;
+  }
+
+  &__right {
+    align-items: flex-end;
+
+    @include vp--767 {
+      align-items: flex-start;
+    }
+  }
+}

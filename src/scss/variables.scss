@@ -1,0 +1,53 @@
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'Jost';
+
+  font-display: swap;
+  src: url('../fonts/jost-semibold.woff2') format('woff2'),
+    url('../fonts/jost-semibold.woff') format('woff');
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Jost';
+
+  font-display: swap;
+  src: url('../fonts/jost-medium.woff2') format('woff2'),
+    url('../fonts/jost-medium.woff') format('woff');
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Jost';
+
+  font-display: swap;
+  src: url('../fonts/jost-regular.woff2') format('woff2'),
+    url('../fonts/jost-regular.woff') format('woff');
+}
+
+$main-color: #59cbe8;
+$yellow-color: #f8e16c;
+$text-color: #f3eff5;
+$bg-color: #262632;
+$hover-text-color: #f7d488;
+$ff-jost: 'Jost', 'Arial', sans-serif;
+
+// Viewports
+//---------------------------------
+
+$vp--320: 320px;
+$vp--360: 360px;
+$vp--375: 375px;
+$vp--500: 500px;
+$vp--768: 768px;
+$vp--900: 900px;
+$vp--1024: 1024px;
+$vp--1246: 1246px;
+$vp--1280: 1280px;
+$vp--1440: 1440px;
+$vp--1680: 1680px;
+$vp--1920: 1920px;
+$vp--2560: 2560px;
