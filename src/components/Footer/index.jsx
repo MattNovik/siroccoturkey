@@ -1,5 +1,5 @@
 import './index.scss';
-import logo2 from '../../assets/logo2.png';
+import logo2 from '../../assets/logo.png';
 import { ReactComponent as TelIcon } from '../../assets/telephone.svg';
 import { ReactComponent as EmailIcon } from '../../assets/email.svg';
 import { ReactComponent as PlaceIcon } from '../../assets/place.svg';

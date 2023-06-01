@@ -38,15 +38,16 @@
     border: none;
     cursor: pointer;
     transition: color 0.3s ease, background-color 0.3s ease;
-    color: $text-color;
-    font-weight: 600;
+    color: $hover-text-color;
+    font-weight: 400;
 
     &:hover {
       color: $hover-text-color;
     }
 
     &.active {
-      color: #bc8034;
+      color: #2c1d89;
+      font-weight: 800;
     }
   }
 }

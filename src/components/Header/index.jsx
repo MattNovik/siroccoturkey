@@ -1,7 +1,7 @@
 import './index.scss';
 import HeaderSwitcher from '../HeaderSwitcher';
 import Menu from '../Menu';
-import logo from '../../assets/logosecond.png';
+import logo from '../../assets/logo.png';
 import { ReactComponent as BurgerMenu } from '../../assets/burger.svg';
 import { useState } from 'react';
 
