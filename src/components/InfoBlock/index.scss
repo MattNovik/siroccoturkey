@@ -16,7 +16,7 @@
     border-radius: 6px;
     object-fit: cover;
     box-shadow: 24px 0px 31px 0px rgba(243, 239, 245, 0.1);
-    background-color: $text-color;
+    background-color: #31343b;
 
     @include vp--767 {
       width: 100%;

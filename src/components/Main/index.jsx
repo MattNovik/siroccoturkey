@@ -1,17 +1,19 @@
 import './index.scss';
 import InfoBlock from '../InfoBlock';
 import MainSlider from '../MainSlider';
+import mainImage from '../../assets/mainImage.jpg';
 import InfoSection from '../InfoSection';
 import { nanoid } from 'nanoid';
-import first from '../../assets/first.jpg';
+import first from '../../assets/first.png';
 import second from '../../assets/second.jpg';
-import third from '../../assets/third.jpg';
+import third from '../../assets/third.png';
 
 const Main = ({ data }) => {
   const infoBlocksList = data.infoBlocksList;
   return (
     <main className="main">
-      <MainSlider />
+      {/*       <MainSlider /> */}
+      <img src={mainImage} className="main__img" />
       <section id="aboutus" className="info-blocks">
         <h2 className="info-blocks__about-us">{data.aboutUs}</h2>
         <ul className="info-blocks__list">
