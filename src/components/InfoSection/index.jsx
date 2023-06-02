@@ -2,12 +2,12 @@ import './index.scss';
 import { nanoid } from 'nanoid';
 import AdditionalInfoBlock from '../AdditionalInfoBlock';
 import addInfo1 from '../../assets/addInfo1.png';
-import addInfo2 from '../../assets/addInfo2.jpg';
+import addInfo2 from '../../assets/addinfo2.jpg';
 import addInfo3 from '../../assets/addInfo3.jpg';
 import addInfo4 from '../../assets/addInfo4.jpg';
 import addInfo5 from '../../assets/addInfo5.png';
 import addInfo6 from '../../assets/addInfo6.jpg';
-import addInfo7 from '../../assets/addInfo7.png';
+import addInfo7 from '../../assets/addinfo7.png';
 
 const InfoSection = ({ data }) => {
   const dataList = data.additionalInfo;
