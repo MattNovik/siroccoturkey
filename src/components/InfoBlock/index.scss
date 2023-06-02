@@ -2,6 +2,7 @@
   display: flex;
   column-gap: 40px;
   align-items: center;
+  flex-direction: row-reverse;
 
   @include vp--767 {
     flex-direction: column;
@@ -15,7 +16,7 @@
     height: 200px;
     border-radius: 6px;
     object-fit: cover;
-    box-shadow: 24px 0px 31px 0px rgba(243, 239, 245, 0.1);
+    box-shadow: 24px 0px 31px 0px rgba(155, 155, 155, 0.4);
     background-color: #31343b;
 
     @include vp--767 {

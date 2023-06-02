@@ -4,9 +4,9 @@ import MainSlider from '../MainSlider';
 import mainImage from '../../assets/mainImage.jpg';
 import InfoSection from '../InfoSection';
 import { nanoid } from 'nanoid';
-import first from '../../assets/first.png';
+import first from '../../assets/first.jpeg';
 import second from '../../assets/second.jpg';
-import third from '../../assets/third.png';
+import third from '../../assets/third.jpg';
 
 const Main = ({ data }) => {
   const infoBlocksList = data.infoBlocksList;
