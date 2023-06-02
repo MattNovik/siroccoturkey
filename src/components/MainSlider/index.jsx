@@ -21,7 +21,7 @@ import Slide32xebp from '../../assets/slide3@2x.webp';
 const MainSlider = () => {
   return (
     <section className="main-slider">
-      <h1 className="main-slider__text">SIROCCO GLOBAL</h1>
+      <h1 className="main-slider__text">MISTRAL GLOBAL</h1>
       <Swiper
         modules={[Autoplay, Pagination]}
         autoplay={{
