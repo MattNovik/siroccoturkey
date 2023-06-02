@@ -23,17 +23,17 @@ const data = {
     mainInfo: [
       {
         name: 'some info',
-        text: 'Sirocco Global was born from the entrepreneurship and wide experience of its founders in the sector of transportation & logistics, offering new solutions to both National and International markets in the areas of Consulting, Shipment and Logistics',
+        text: 'Mistral Global was born from the entrepreneurship and wide experience of its founders in the sector of transportation & logistics, offering new solutions to both National and International markets in the areas of Consulting, Shipment and Logistics',
         img: 'url/img',
       },
       {
         name: 'some info',
-        text: 'As its primary mission to offer innovative and competitive solutions related with Import-Export of goods whether by road, rail, sea or air, Sirocco Global provides customer-oriented services focused on "just in time" and continuous improvement',
+        text: 'As its primary mission to offer innovative and competitive solutions related with Import-Export of goods whether by road, rail, sea or air, Mistral Global provides customer-oriented services focused on "just in time" and continuous improvement',
         img: 'url/img',
       },
       {
         name: 'some info',
-        text: 'Sirocco Global - From spend analytics to sourcing to procurement: gain actionable insights, reduce costs, and ensure compliance',
+        text: 'Mistral Global - From spend analytics to sourcing to procurement: gain actionable insights, reduce costs, and ensure compliance',
         img: 'url/img',
       },
     ],
@@ -81,27 +81,27 @@ const data = {
     infoBlocksList: [
       {
         name: 'some info',
-        text: 'Sirocco Global was born from the entrepreneurship and wide experience of its founders in the sector of transportation & logistics, offering new solutions to both National and International markets in the areas of Consulting, Shipment and Logistics',
+        text: 'Mistral Global was born from the entrepreneurship and wide experience of its founders in the sector of transportation & logistics, offering new solutions to both National and International markets in the areas of Consulting, Shipment and Logistics',
         img: 'first',
       },
       {
         name: 'some info',
-        text: 'As its primary mission to offer innovative and competitive solutions related with Import-Export of goods whether by road, rail, sea or air, Sirocco Global provides customer-oriented services focused on "just in time" and continuous improvement',
+        text: 'As its primary mission to offer innovative and competitive solutions related with Import-Export of goods whether by road, rail, sea or air, Mistral Global provides customer-oriented services focused on "just in time" and continuous improvement',
         img: 'second',
       },
       {
         name: 'some info',
-        text: 'Sirocco Global - From spend analytics to sourcing to procurement: gain actionable insights, reduce costs, and ensure compliance',
+        text: 'Mistral Global - From spend analytics to sourcing to procurement: gain actionable insights, reduce costs, and ensure compliance',
         img: 'third',
       },
     ],
     companyInfo: {
-      companyName: 'SIROCCO GLOBAL DOO BEOGRAD',
+      companyName: 'Mistral GLOBAL DOO BEOGRAD',
       companyAdress: 'Cara Uroša 18, BELGRAD, 11000, Serbia',
       companyAdressLink: 'https://goo.gl/maps/GzGMYmUpNF95bxhn6',
       companyTel: '+381629328622',
       companyTelLink: 'tel:+381629328622',
-      companyEmail: 'sirocco.serbia@gmail.com',
+      companyEmail: 'mistral.serbia@gmail.com',
       companyEmailLink: 'mailto:sirocc0.serbia@gmail.com',
     },
   },
@@ -129,17 +129,17 @@ const data = {
     mainInfo: [
       {
         name: 'some info',
-        text: 'Sirocco Global, kurucusunun nakliye ve lojistik sektöründeki girişimciliği ve büyük deneyiminden doğmuş, danışmanlık, nakliye ve lojistik alanlarında ulusal ve uluslararası pazarda yeni çözümler sunmaktadır.',
+        text: 'Mistral Global, kurucusunun nakliye ve lojistik sektöründeki girişimciliği ve büyük deneyiminden doğmuş, danışmanlık, nakliye ve lojistik alanlarında ulusal ve uluslararası pazarda yeni çözümler sunmaktadır.',
         img: 'url/img',
       },
       {
         name: 'some info',
-        text: 'Sirocco Global, karayolu, demiryolu, deniz veya hava yoluyla ithalat-ihracat ile ilgili yenilikçi ve rekabetçi çözümler sunmak ana misyonu olarak müşteri odaklı hizmetler sunmaktadır.',
+        text: 'Mistral Global, karayolu, demiryolu, deniz veya hava yoluyla ithalat-ihracat ile ilgili yenilikçi ve rekabetçi çözümler sunmak ana misyonu olarak müşteri odaklı hizmetler sunmaktadır.',
         img: 'url/img',
       },
       {
         name: 'some info',
-        text: 'Sirocco Global - Harcama Analitiğinden Tedarik ve Tedarike: Eyleme Geçirilebilir Öngörüler Elde Edin, Maliyetleri Azaltın ve Uyumluluğu Sağlayın',
+        text: 'Mistral Global - Harcama Analitiğinden Tedarik ve Tedarike: Eyleme Geçirilebilir Öngörüler Elde Edin, Maliyetleri Azaltın ve Uyumluluğu Sağlayın',
         img: 'url/img',
       },
     ],
@@ -187,27 +187,27 @@ const data = {
     infoBlocksList: [
       {
         name: 'some info',
-        text: 'Sirocco Global, kurucusunun nakliye ve lojistik sektöründeki girişimciliği ve büyük deneyiminden doğmuş, danışmanlık, nakliye ve lojistik alanlarında ulusal ve uluslararası pazarda yeni çözümler sunmaktadır.',
+        text: 'Mistral Global, kurucusunun nakliye ve lojistik sektöründeki girişimciliği ve büyük deneyiminden doğmuş, danışmanlık, nakliye ve lojistik alanlarında ulusal ve uluslararası pazarda yeni çözümler sunmaktadır.',
         img: 'first',
       },
       {
         name: 'some info',
-        text: 'Sirocco Global, karayolu, demiryolu, deniz veya hava yoluyla ithalat-ihracat ile ilgili yenilikçi ve rekabetçi çözümler sunmak ana misyonu olarak müşteri odaklı hizmetler sunmaktadır.',
+        text: 'Mistral Global, karayolu, demiryolu, deniz veya hava yoluyla ithalat-ihracat ile ilgili yenilikçi ve rekabetçi çözümler sunmak ana misyonu olarak müşteri odaklı hizmetler sunmaktadır.',
         img: 'second',
       },
       {
         name: 'some info',
-        text: 'Sirocco Global - Harcama Analitiğinden Tedarik ve Tedarike: Eyleme Geçirilebilir Öngörüler Elde Edin, Maliyetleri Azaltın ve Uyumluluğu Sağlayın',
+        text: 'Mistral Global - Harcama Analitiğinden Tedarik ve Tedarike: Eyleme Geçirilebilir Öngörüler Elde Edin, Maliyetleri Azaltın ve Uyumluluğu Sağlayın',
         img: 'third',
       },
     ],
     companyInfo: {
-      companyName: 'SIROCCO GLOBAL DOO BEOGRAD',
+      companyName: 'Mistral GLOBAL DOO BEOGRAD',
       companyAdress: 'Цара Уроша 18, БЕОГРАД, 11000, Србиja',
       companyAdressLink: 'https://goo.gl/maps/GzGMYmUpNF95bxhn6',
       companyTel: '+381629328622',
       companyTelLink: 'tel:+381629328622',
-      companyEmail: 'sirocco.serbia@gmail.com',
+      companyEmail: 'mistral.serbia@gmail.com',
       companyEmailLink: 'mailto:sirocc0.serbia@gmail.com',
     },
   },
