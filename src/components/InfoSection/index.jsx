@@ -5,7 +5,7 @@ import addInfo1 from '../../assets/addInfo1.png';
 import addInfo2 from '../../assets/addinfo2.jpg';
 import addInfo3 from '../../assets/addInfo61.jpg';
 import addInfo5 from '../../assets/addInfo5.png';
-import addInfo6 from '../../assets/addInfo3.png';
+import addInfo6 from '../../assets/addInfo31.png';
 import addInfo7 from '../../assets/addinfo7.png';
 
 const InfoSection = ({ data }) => {
