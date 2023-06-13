@@ -96,13 +96,14 @@ const data = {
       },
     ],
     companyInfo: {
-      companyName: 'Mistral GLOBAL DOO BEOGRAD',
-      companyAdress: 'Cara Uroša 18, BELGRAD, 11000, Serbia',
-      companyAdressLink: 'https://goo.gl/maps/GzGMYmUpNF95bxhn6',
-      companyTel: '+381629328622',
-      companyTelLink: 'tel:+381629328622',
-      companyEmail: 'mistral.serbia@gmail.com',
-      companyEmailLink: 'mailto:sirocc0.serbia@gmail.com',
+      companyName: 'MISTRAL GLOBAL LOJISTIK VE TICARET ANONIM SIRKETI',
+      companyAdress:
+        'ISTANBUL. CAFERAGA MAH. GENERAL ASIM GUNDUZ CAD. NO: 62/ 5 KADIKOY',
+      companyAdressLink: 'https://goo.gl/maps/2njibKX3rErXWaTn8',
+      companyTel: '+905010765730',
+      companyTelLink: 'tel:+905010765730',
+      companyEmail: 'mistralglobal@gmail.com',
+      companyEmailLink: 'mailto:mistralglobal@gmail.com',
     },
   },
   srp: {
@@ -202,13 +203,14 @@ const data = {
       },
     ],
     companyInfo: {
-      companyName: 'Mistral GLOBAL DOO BEOGRAD',
-      companyAdress: 'Цара Уроша 18, БЕОГРАД, 11000, Србиja',
-      companyAdressLink: 'https://goo.gl/maps/GzGMYmUpNF95bxhn6',
-      companyTel: '+381629328622',
-      companyTelLink: 'tel:+381629328622',
-      companyEmail: 'mistral.serbia@gmail.com',
-      companyEmailLink: 'mailto:sirocc0.serbia@gmail.com',
+      companyName: 'MİSTRAL GLOBAL LOJİSTİK VE TİCARET ANONİM ŞİRKETİ',
+      companyAdress:
+        'ISTANBUL. CAFERAGA MAH. GENERAL ASIM GÜNDÜZ CAD. NO: 62/ 5 KADIKÖY',
+      companyAdressLink: 'https://goo.gl/maps/2njibKX3rErXWaTn8',
+      companyTel: '+905010765730',
+      companyTelLink: 'tel:+905010765730',
+      companyEmail: 'mistralglobal@gmail.com',
+      companyEmailLink: 'mailto:mistralglobal@gmail.com',
     },
   },
 };
